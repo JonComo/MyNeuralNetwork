@@ -18,6 +18,10 @@
 		8672EC341661F0FE002376D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8672EC331661F0FE002376D7 /* Default-568h@2x.png */; };
 		8672EC371661F0FE002376D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8672EC351661F0FE002376D7 /* MainStoryboard.storyboard */; };
 		8672EC3A1661F0FE002376D7 /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EC391661F0FE002376D7 /* NNViewController.m */; };
+		8672EC421661F152002376D7 /* NNNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EC411661F152002376D7 /* NNNetwork.m */; };
+		8672EC451661F1F8002376D7 /* NNNeuron.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EC441661F1F7002376D7 /* NNNeuron.m */; };
+		8683169216640BE400E47BD1 /* NNNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8683169116640BE400E47BD1 /* NNNetworkView.m */; };
+		8683169616642A1900E47BD1 /* JCMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8683169516642A1900E47BD1 /* JCMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,14 @@
 		8672EC361661F0FE002376D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8672EC381661F0FE002376D7 /* NNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
 		8672EC391661F0FE002376D7 /* NNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
+		8672EC401661F152002376D7 /* NNNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetwork.h; sourceTree = "<group>"; };
+		8672EC411661F152002376D7 /* NNNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetwork.m; sourceTree = "<group>"; usesTabs = 1; };
+		8672EC431661F1F7002376D7 /* NNNeuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNeuron.h; sourceTree = "<group>"; };
+		8672EC441661F1F7002376D7 /* NNNeuron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNeuron.m; sourceTree = "<group>"; };
+		8683169016640BE400E47BD1 /* NNNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkView.h; sourceTree = "<group>"; };
+		8683169116640BE400E47BD1 /* NNNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkView.m; sourceTree = "<group>"; };
+		8683169416642A1900E47BD1 /* JCMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCMath.h; sourceTree = "<group>"; };
+		8683169516642A1900E47BD1 /* JCMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +95,19 @@
 		8672EC231661F0FE002376D7 /* MyNeuralNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				8683169416642A1900E47BD1 /* JCMath.h */,
+				8683169516642A1900E47BD1 /* JCMath.m */,
 				8672EC2C1661F0FE002376D7 /* NNAppDelegate.h */,
 				8672EC2D1661F0FE002376D7 /* NNAppDelegate.m */,
 				8672EC351661F0FE002376D7 /* MainStoryboard.storyboard */,
 				8672EC381661F0FE002376D7 /* NNViewController.h */,
 				8672EC391661F0FE002376D7 /* NNViewController.m */,
+				8672EC431661F1F7002376D7 /* NNNeuron.h */,
+				8672EC441661F1F7002376D7 /* NNNeuron.m */,
+				8672EC401661F152002376D7 /* NNNetwork.h */,
+				8672EC411661F152002376D7 /* NNNetwork.m */,
+				8683169016640BE400E47BD1 /* NNNetworkView.h */,
+				8683169116640BE400E47BD1 /* NNNetworkView.m */,
 				8672EC241661F0FE002376D7 /* Supporting Files */,
 			);
 			path = MyNeuralNetwork;
@@ -177,6 +197,10 @@
 				8672EC2A1661F0FE002376D7 /* main.m in Sources */,
 				8672EC2E1661F0FE002376D7 /* NNAppDelegate.m in Sources */,
 				8672EC3A1661F0FE002376D7 /* NNViewController.m in Sources */,
+				8672EC421661F152002376D7 /* NNNetwork.m in Sources */,
+				8672EC451661F1F8002376D7 /* NNNeuron.m in Sources */,
+				8683169216640BE400E47BD1 /* NNNetworkView.m in Sources */,
+				8683169616642A1900E47BD1 /* JCMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +316,7 @@
 				8672EC3F1661F0FE002376D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
